@@ -12,7 +12,7 @@ while not cl.checkIfLoggedIn():
 courses = cl.getCourses()
 messages = cl.getMessages()
 
-for course in cl.getCourses():
+for course in courses:
     print()
     print(course['course_info'])
 
